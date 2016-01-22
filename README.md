@@ -6,5 +6,4 @@ More to come.
 
 ## License
 
-Copyright © 2015, Daniel Janus
-
+Copyright © 2015–2016, Daniel Janus
