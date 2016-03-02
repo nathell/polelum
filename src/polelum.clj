@@ -24,7 +24,7 @@
 
 (defn lemmatize-multiple [^String word]
   (let [d (disamb word)]
-    (concat (when d [d]) (map :base (stem word)))))
+    (concat (when d [d]) (mapv :base (stem word)))))
 
 (defn lemmatize [^String word]
   (or (lemmatize-single word)
