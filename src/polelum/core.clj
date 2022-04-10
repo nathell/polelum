@@ -1,4 +1,4 @@
-(ns polelum
+(ns polelum.core
   (:require [clojure.java.io :as io]
             [clojure.string :as string])
   (:import (morfologik.stemming.polish PolishStemmer)
